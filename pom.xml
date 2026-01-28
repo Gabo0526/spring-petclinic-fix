@@ -31,6 +31,10 @@
     <maven-checkstyle.version>3.6.0</maven-checkstyle.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.47</spring-format.version>
+
+      <sonar.projectKey>pet-clinic-project</sonar.projectKey>
+      <sonar.projectName>Pet Clinic</sonar.projectName>
+      <sonar.host.url>http://localhost:9000</sonar.host.url>
   </properties>
 
   <licenses>
@@ -292,6 +296,12 @@
               </execution>
             </executions>
           </plugin>
+
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.11.0.3922</version> <!-- Use the latest version -->
+            </plugin>
         </plugins>
       </build>
     </profile>

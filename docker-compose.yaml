@@ -1,0 +1,70 @@
+services:
+  # -----------------------------------------------------------------
+  # SERVICIOS DE LA APLICACIÓN (PetClinic)
+  # -----------------------------------------------------------------
+  mysql:
+    image: mysql:9.5
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_USER=petclinic
+      - MYSQL_PASSWORD=petclinic
+      - MYSQL_DATABASE=petclinic
+    volumes:
+      - "./conf.d:/etc/mysql/conf.d:ro"
+
+  postgres:
+    image: postgres:18.1
+    ports:
+      - "5432:5432" # Este es el Postgres principal accesible desde localhost
+    environment:
+      - POSTGRES_PASSWORD=petclinic
+      - POSTGRES_USER=petclinic
+      - POSTGRES_DB=petclinic
+
+  # -----------------------------------------------------------------
+  # SERVICIOS DE SONARQUBE
+  # -----------------------------------------------------------------
+  sonarqube:
+    image: sonarqube
+    ports:
+      - "9000:9000"
+    networks:
+      - sonarnet
+    environment:
+      - SONARQUBE_JDBC_URL=jdbc:postgresql://sonarqube-db:5432/sonar
+      - SONARQUBE_JDBC_USERNAME=sonar
+      - SONARQUBE_JDBC_PASSWORD=sonar
+    volumes:
+      - sonarqube_conf:/opt/sonarqube/conf
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+    depends_on:
+      - sonarqube-db
+
+  sonarqube-db:
+    image: postgres:13 # Recomendable fijar versión compatible con Sonar
+    networks:
+      - sonarnet
+    environment:
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASSWORD=sonar
+    volumes:
+      - sonarqube_postgresql:/var/lib/postgresql
+      - sonarqube_postgresql_data:/var/lib/postgresql/data
+    # NOTA: No exponemos ports aquí para no chocar con el puerto 5432 del servicio 'postgres' de arriba.
+
+networks:
+  sonarnet:
+    driver: bridge
+
+volumes:
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_bundled-plugins:
+  sonarqube_postgresql:
+  sonarqube_postgresql_data:
