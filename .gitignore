@@ -2,3 +2,8 @@ target
 .metals
 .vscode
 /.idea/
+# JMeter Logs & Results
+*.jtl
+*.log
+/src/test/jmeter/report/
+/src/test/jmeter/results/

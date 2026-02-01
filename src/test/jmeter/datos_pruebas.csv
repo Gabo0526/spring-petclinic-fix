@@ -1,0 +1,61 @@
+firstName,lastName,address,city,telephone,petName,petDate,petType
+Juan,Perez,Av Amazonas,Quito,0991234567,Firulais,2024-01-01,dog
+Maria,Lopez,Calle 10 de Agosto,Guayaquil,0987654321,Michi,2023-05-10,cat
+Carlos,Ruiz,Av Loja y Remigio,Cuenca,0911223344,Piolin,2022-11-20,bird
+Ana,Mendez,Los Shyris N34,Quito,0933445566,Rex,2023-02-28,hamster
+Luis,Vera,Barrio El Murcielago,Manta,0955667788,Rango,2024-01-15,lizard
+Sofia,Andrade,Calle Larga,Cuenca,0998877665,Slinky,2022-06-12,snake
+Pedro,Sarmiento,Av Cevallos,Ambato,0981122334,Max,2021-09-09,dog
+Lucia,Gomez,Urdesa Central,Guayaquil,0975566443,Luna,2023-03-15,cat
+Jorge,Viteri,La Carolina,Quito,0969988776,Nemo,2024-04-01,bird
+Elena,Torres,Av Bolivar,Ibarra,0992233445,Bolita,2023-12-25,hamster
+Miguel,Castro,San Marianitas,Manta,0984455667,Draco,2022-08-30,lizard
+Patricia,Ortiz,Av 6 de Diciembre,Quito,0951239876,Kaa,2024-02-14,snake
+Fernando,Leon,Ciudadela Zamora,Loja,0995544332,Rocky,2021-07-20,dog
+Gabriela,Paz,Samborondon,Guayaquil,0983322114,Pelusa,2023-10-05,cat
+Ricardo,Mora,Av Daniel Leon Borja,Riobamba,0978899001,Blue,2022-01-30,bird
+Valeria,Salas,El Batan,Quito,0967766554,Chester,2024-05-20,hamster
+Andres,Jaramillo,Totoracocha,Cuenca,0991199228,Godzilla,2023-09-11,lizard
+Camila,Reyes,Puerto Azul,Guayaquil,0986655443,Python,2022-04-18,snake
+Diego,Vargas,Villa Flora,Quito,0953322445,Toby,2021-12-01,dog
+Natalia,Herrera,Av Ordoñez Lasso,Cuenca,0997788990,Mina,2023-06-25,cat
+Esteban,Cordova,Ficoa,Ambato,0982233445,Rio,2022-03-10,bird
+Isabel,Montalvo,Cumbaya,Quito,0971122334,Stuart,2024-01-10,hamster
+Victor,Zambrano,Los Esteros,Manta,0965544332,Iggy,2023-11-02,lizard
+Daniela,Lara,Kennedy Norte,Guayaquil,0990099887,Nagini,2022-07-15,snake
+Francisco,Paredes,Carcelen,Quito,0989988776,Zeus,2021-05-05,dog
+Monica,Suarez,San Sebastian,Loja,0958877665,Nala,2023-08-20,cat
+Roberto,Aguilar,La Prensa,Riobamba,0996655443,Pico,2022-02-14,bird
+Carolina,Espinoza,Tumbaco,Quito,0984433221,Alvin,2024-03-30,hamster
+Manuel,Romero,Av Solano,Cuenca,0973322115,Pascal,2023-12-01,lizard
+Teresa,Guerrero,Los Ceibos,Guayaquil,0962211009,Severus,2022-09-22,snake
+Javier,Maldonado,Quitumbe,Quito,0995566778,Bruno,2021-11-11,dog
+Veronica,Yepez,Av 12 de Abril,Cuenca,0981234567,Coco,2023-04-15,cat
+Santiago,Borja,Miraflores,Ambato,0959876543,Tweety,2022-10-30,bird
+Lorena,Cevallos,Pomasqui,Quito,0994567890,Chip,2024-02-05,hamster
+Alejandro,Benitez,Tarqui,Manta,0987654321,Raptor,2023-07-18,lizard
+Paulina,Davila,Via a la Costa,Guayaquil,0976543210,Viper,2022-05-25,snake
+David,Valencia,La Vicentina,Quito,0961122334,Odie,2021-08-08,dog
+Fernanda,Mejia,Yanuncay,Cuenca,0992233445,Simba,2023-01-20,cat
+Gonzalo,Arroyo,Centro Historico,Quito,0983344556,Sky,2022-12-12,bird
+Mariana,Rojas,Bellavista,Ambato,0954455667,Dale,2024-04-10,hamster
+Eduardo,Flores,Barbasquillo,Manta,0996677889,Charmander,2023-09-05,lizard
+Cristina,Molina,Alborada,Guayaquil,0987788990,Sly,2022-06-30,snake
+Rene,Carrera,El Condado,Quito,0978899001,Baloo,2021-03-15,dog
+Diana,Palacios,Puertas del Sol,Cuenca,0969900112,Kitty,2023-05-25,cat
+Gustavo,Ibarra,Av Unidad Nacional,Riobamba,0991122334,Fawkes,2022-11-01,bird
+Silvia,Tapia,San Rafael,Quito,0985566778,Jerry,2024-01-30,hamster
+Humberto,Villamar,Sauces 4,Guayaquil,0956677889,Gex,2023-10-15,lizard
+Gloria,Pinto,El Sagrario,Loja,0997788991,Medusa,2022-04-05,snake
+Pablo,Estrella,Chillogallo,Quito,0988899002,Duke,2021-09-20,dog
+Ximena,Baldeon,Challuabamba,Cuenca,0979900113,Mishis,2023-03-05,cat
+Mauricio,Nieto,Ingahurco,Ambato,0960011224,Zazu,2022-12-20,bird
+Raquel,Velasco,Mitad del Mundo,Quito,0992233446,Ratatouille,2024-05-15,hamster
+Cesar,Brito,El Palmar,Manta,0983344557,Yoshi,2023-08-08,lizard
+Adriana,Cardenas,Centenario,Guayaquil,0954455668,Sid,2022-01-10,snake
+Felipe,Moncayo,Guapulo,Quito,0995566779,Clifford,2021-06-15,dog
+Julia,Solis,Tomebamba,Cuenca,0986677880,Garfield,2023-11-25,cat
+Alberto,Teran,La Granja,Riobamba,0977788991,Woody,2022-08-05,bird
+Martha,Correa,Conocoto,Quito,0968899002,Speedy,2024-02-20,hamster
+Lorenzo,Quevedo,Las Peñas,Guayaquil,0999900113,Rengar,2023-06-10,lizard
+Beatriz,Alvarado,San Cayetano,Loja,0981122335,Basil,2022-03-25,snake
