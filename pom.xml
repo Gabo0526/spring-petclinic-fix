@@ -302,6 +302,14 @@
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.11.0.3922</version> <!-- Use the latest version -->
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>-XX:+EnableDynamicAgentLoading -Xshare:off</argLine>
+                </configuration>
+            </plugin>
         </plugins>
       </build>
     </profile>
@@ -334,7 +342,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                          <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -347,7 +355,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                          <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -360,7 +368,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                          <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>

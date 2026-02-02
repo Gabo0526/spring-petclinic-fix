@@ -24,10 +24,9 @@ public class NamedEntity extends BaseEntity {
 		this.name = name;
 	}
 
-	@Override
-	public String toString() {
-		String name = this.getName();
-		return (name != null) ? name : "<null>";
-	}
-
+    @Override
+    public String toString() {
+        // Hace exactamente lo mismo: devuelve el valor o un valor por defecto si es null
+        return java.util.Objects.toString(this.getName(), "<null>");
+    }
 }
